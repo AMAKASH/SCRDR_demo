@@ -5,8 +5,8 @@ import re
 import pickle
 
 global kb_file_name, output_path, kb, relational_regex
-kb_file_name = "saved_kb_final.kb"
-# kb_file_name = "saved_kb.kb"
+# kb_file_name = "saved_kb_final.kb"
+kb_file_name = "saved_kb.kb"
 output_path = 'conclusions.csv'
 relational_regex = '==|<=|>=|<|>'
 
@@ -119,6 +119,7 @@ def main():
     dataset['rules_fired'] = ""
     kb.printRules()
     itr = 0
+    evaluation = None
     while itr < no_of_rows:
         case = dataset.iloc[itr]
         try:
