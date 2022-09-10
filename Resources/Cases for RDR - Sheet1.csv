@@ -1,20 +1,14 @@
-name,"AGE GROUP
-{
-1:0-5
-2:6-11
-3:12-18
-4:18+
-}","Excessive worry; fear or anxiety","Fearful of -
-{
+Name,"AGE GROUP
+{ 1:0-5,
+2:6-11,
+3:12-18,
+4:18+}","Excessive worry, fear or anxiety","Fearful of - {
 1 : separation from attachment figures
 2 : social interactions
-3 : a specific object or situation (out of proportion)
-}",Physical symptoms of distress,Consistent inablility to speak in social/public places,Recurrent Panic Attack,Cognition/feeling of trapped or helplessness,"Consequence of - 
-{
-0: None
+3 : a specific object or situation (out of proportion)}",Physical symptoms of distress,Consistent inablility to speak in social/public places,Recurrent Panic Attack,Cognition/feeling of trapped or helplessness,"Consequence of - 
+{ 0: None
 1: another medical condition
-2: exposure or withdrawal to substance or medication
-}",Behavior deviates markedly from culture,Lack of close relationships,"Suspicion without basis; reluctance to confide in others","Aggressive; irresponsible; reckless","Stubborn; Workaholic",Frequent Temper Outburst,"Depressed mood; hopelessness; low self esteem",Poor apetite,Duration of symptoms being present (Days),Affective labelity (mood swing) or irritability,Psychomtor agitation / retardation,Fatigue / loss of energy,Insomnia,Indecisiveness,target
+2: exposure or withdrawal to substance or medication}",Behavior deviates markedly from culture,Lack of close relationships,"Suspicion without basis, reluctance to confide in others","Aggressive, irresponsible, reckless","Stubborn, Workaholic",Frequent Temper Outburst,"Depressed mood, hopelessness, low self esteem",Poor apetite,Duration of symptoms being present (Days),Affective labelity (mood swing) or irritability,Psychomtor agitation / retardation,Fatigue / loss of energy,Insomnia,Indecisiveness,Target
 David,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Separation Anxiety Disorder
 Jones,0,1,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Selective mutism
 Warner,0,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Specific Phobia

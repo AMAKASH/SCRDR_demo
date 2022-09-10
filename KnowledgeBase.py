@@ -17,7 +17,7 @@ class Rule:
         tobe_returned = f"Rule No: {self.rule_no}, conditions: {self.conditions}, conclusion: {self.conclusion},"
         if self.is_refinement:
             tobe_returned += f" parent: {self.parent},"
-        tobe_returned += f" cornerstone: {self.cornerstone}"
+        tobe_returned += f"\n\t cornerstone: {self.cornerstone}"
         return tobe_returned
 
 
