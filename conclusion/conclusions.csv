@@ -1,2 +1,10 @@
 name,age_group,symptom1,symptom2,symptom3,symptom4,symptom5,symptom6,symptom7,symptom8,symptom9,symptom10,symptom11,symptom12,symptom13,symptom14,symptom15,symptom16,symptom17,symptom18,symptom19,symptom20,symptom21,target, conclusion, rules Evaluated, rules Fired
 David,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Separation Anxiety Disorder,Separation Anxiety Disorder,1,1
+Jones,0,1,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Selective mutism,Selective mutism,1->2,2
+Warner,0,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Specific Phobia,Specific Phobia,1->2->3,3
+Maxwell,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Social Anxiety Disorder,Social Anxiety Disorder,1->2->3->4,4
+Starc,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Panic Disorder,Panic Disorder,1->2->3->4->5,5
+Lee,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,Generalized Anxiety Disorder,Generalized Anxiety Disorder,1->2->3->4->5->6,6
+Anderson,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Agoraphobia,Agoraphobia,1->2->3->4->5->6->7,7
+Broad,0,1,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Medicine/Substance induced Anxiety Disorder,Medicine/Substance induced Anxiety Disorder,1->2->3->4->5->6->7->8,8
+Stuart,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Anxiety Disorder due to another medical condition personality disorder,Anxiety Disorder due to another medical condition personality disorder,1->2->3->4->5->6->7->8->9,9

@@ -104,6 +104,8 @@ def add_rule(case, parent=None):
 
 def print_original_columns(msg, col):
     print(msg)
+    age_group = col[1].replace('\n', '\n\t\t')
+    print('\t', f"=> {age_group}")
     for i, col_name in enumerate(col[2:-1]):
         if '\n' in col_name:
             col_name = col_name.replace('\n', '\n\t\t')
