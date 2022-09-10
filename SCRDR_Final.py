@@ -104,7 +104,7 @@ def add_rule(case, parent=None):
 
 def main():
     global kb
-    dataset = pandas.read_csv('datasets/rdr_dm5_dataset.csv')
+    dataset = pandas.read_csv('datasets/animal_dataset.csv')
     features = list(dataset.columns)
     initialise_output_path(features)
     if os.path.exists(kb_file_name):
