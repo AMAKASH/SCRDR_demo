@@ -8,3 +8,13 @@ Lee,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,Generalized Anxiety Disorder,Gen
 Anderson,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Agoraphobia,Agoraphobia,1->2->3->4->5->6->7,7
 Broad,0,1,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Medicine/Substance induced Anxiety Disorder,Medicine/Substance induced Anxiety Disorder,1->2->3->4->5->6->7->8,8
 Stuart,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Anxiety Disorder due to another medical condition personality disorder,Anxiety Disorder due to another medical condition personality disorder,1->2->3->4->5->6->7->8->9,9
+Clerk,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Paranoid personality disorder,Paranoid personality disorder,1->2->3->4->5->6->7->8->9->10,10
+Watson,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,Antisocial personality disorder,Antisocial personality disorder,1->2->3->4->5->6->7->8->9->10->11,11
+Taylor,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,Obsessive compulsive personality disorder,Obsessive compulsive personality disorder,1->2->3->4->5->6->7->8->9->10->11->12,12
+Hazelwood,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Schizoid personality disorder,Schizoid personality disorder,1->2->3->4->5->6->7->8->9->10->11->12->13,13
+Root,3,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,360,0,0,0,0,0,Disruptive Mood Dysregulation Disorder,Disruptive Mood Dysregulation Disorder,1->2->3->4->5->6->7->8->9->10->11->12->13->14->15,15
+Morgan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,1,0,0,Major Depressive Disorder,Major Depressive Disorder,1->2->3->4->5->6->7->8->9->10->11->12->13->14->15->16,16
+Hales,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,720,0,0,1,1,1,Persistent Depressive Disorder,Persistent Depressive Disorder,1->2->3->4->5->6->7->8->9->10->11->12->13->14->15->16->17,17
+Bell,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,Premenstrual Dysphoric Disorder,Premenstrual Dysphoric Disorder,1->2->3->4->5->6->7->8->9->10->11->12->13->14->15->16->17->18,18
+Cummins,0,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Medicine/Substance induced Depressive Disorder,Medicine/Substance induced Depressive Disorder,1->2->3->4->5->6->7->8->9->10->11->12->13->14->15->16->17->18->19,19
+Zampa,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Depressive Disorder due to another medical condition personality disorder,Depressive Disorder due to another medical condition personality disorder,1->2->3->4->5->6->7->8->9->10->11->12->13->14->15->16->17->18->19->20,20
