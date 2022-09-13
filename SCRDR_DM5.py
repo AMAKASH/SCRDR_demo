@@ -167,7 +167,7 @@ def main():
         append_to_output(list(dataset.iloc[itr]))
         itr += 1
 
-    print_original_columns('List of Symptoms corresponding to the table below:', original_columns)
+    # print_original_columns('List of Symptoms corresponding to the table below:', original_columns)
     print(dataset.to_string())
 
 
