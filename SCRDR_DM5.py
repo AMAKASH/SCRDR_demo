@@ -119,7 +119,7 @@ def main():
     original_columns = list(dataset.columns)
     rename_dict = {original_columns[1]: 'age_group'}
     for i, name in enumerate(original_columns[2:-1]):
-        rename_dict[name] = f'symptom{i + 1}'
+        rename_dict[name] = f'S{i + 1}'
     # print(rename_dict)
     dataset.rename(columns=rename_dict, inplace=True)
     features = list(dataset.columns)
@@ -136,7 +136,7 @@ def main():
     dataset['rules_evaluated'] = ""
     dataset['rules_fired'] = ""
     kb.printRules()
-    print_original_columns('List of Symptoms corresponding to the table below:', original_columns)
+    print_original_columns('List of Symptoms(S) corresponding to the table below:', original_columns)
     itr = 0
     evaluation = None
     while itr < no_of_rows:
@@ -150,7 +150,7 @@ def main():
         if not evaluation:
             add_rule(case)
             kb.printRules()
-            print_original_columns('List of Symptoms corresponding to the table below:', original_columns)
+            print_original_columns('List of Symptoms(S) corresponding to the table below:', original_columns)
             continue
         if case['target'] != evaluation[0]:
             dataset.loc[itr, 'conclusion'] = evaluation[0]
@@ -159,7 +159,7 @@ def main():
             case = dataset.iloc[itr]
             add_rule(case, evaluation[1])
             kb.printRules()
-            print_original_columns('List of Symptoms corresponding to the table below:', original_columns)
+            print_original_columns('List of Symptoms(S) corresponding to the table below:', original_columns)
             continue
         dataset.loc[itr, 'conclusion'] = evaluation[0]
         dataset.loc[itr, 'rules_evaluated'] = "->".join(map(str, evaluation[2]))

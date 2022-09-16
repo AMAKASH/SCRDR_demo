@@ -3,6 +3,20 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="\Resources\Cases for RDR v2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Resources\Cases for RDR.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\conclusion\conclusions.csv">
           <value>
             <Attribute>
@@ -25,6 +39,13 @@
           </value>
         </entry>
         <entry key="\datasets\test_case.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\datasets\test_case_v2.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

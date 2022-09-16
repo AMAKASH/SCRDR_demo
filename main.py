@@ -7,6 +7,7 @@ import os
 # kb_file_name = "saved_kb_final.kb"
 kb_file_name = "saved_kb.kb"
 output_path = 'conclusion/conclusions.csv'
+debug = True
 
 
 def load_kb(path=None):
@@ -20,7 +21,7 @@ def load_kb(path=None):
 
 def initialise_output_path(features):
     with open(output_path, 'w') as f:
-        to_append = str(f"{','.join(features)}, conclusion, rules Evaluated, rules Fired\n")
+        to_append = str(f"{','.join(features)}, conclusion\n")
         f.write(to_append)
 
 
@@ -43,11 +44,11 @@ def append_to_output(case):
 
 def main():
     global kb
-    dataset = pandas.read_csv('datasets/test_case.csv')
+    dataset = pandas.read_csv('datasets/test_case_v2.csv')
     original_columns = list(dataset.columns)
     rename_dict = {original_columns[1]: 'age_group'}
     for i, name in enumerate(original_columns[2:-1]):
-        rename_dict[name] = f'symptom{i + 1}'
+        rename_dict[name] = f'S{i + 1}'
     # print(rename_dict)
     dataset.rename(columns=rename_dict, inplace=True)
     features = list(dataset.columns)
@@ -61,10 +62,10 @@ def main():
 
     no_of_rows = dataset.shape[0]
     dataset['conclusion'] = ""
-    dataset['rules_evaluated'] = ""
-    dataset['rules_fired'] = ""
+    # dataset['rules_evaluated'] = ""
+    # dataset['rules_fired'] = ""
     kb.printRules()
-    print_original_columns('List of Symptoms corresponding to the table below:', original_columns)
+    print_original_columns('List of Symptoms(S) corresponding to the table below:', original_columns)
     itr = 0
     evaluation = None
     while itr < no_of_rows:
@@ -76,8 +77,8 @@ def main():
         # print(case)
         # print(f"{itr}. Evaluation:", evaluation)
         dataset.loc[itr, 'conclusion'] = evaluation[0]
-        dataset.loc[itr, 'rules_evaluated'] = "->".join(map(str, evaluation[2]))
-        dataset.loc[itr, 'rules_fired'] = "->".join(map(str, evaluation[3]))
+        # dataset.loc[itr, 'rules_evaluated'] = "->".join(map(str, evaluation[2]))
+        # dataset.loc[itr, 'rules_fired'] = "->".join(map(str, evaluation[3]))
         append_to_output(list(dataset.iloc[itr]))
         itr += 1
 

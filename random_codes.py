@@ -24,15 +24,32 @@ def save_kb(path=None):
 
 def editRules():
     global kb
-    kb=KnowledgeBase([])
+    kb = KnowledgeBase([])
     load_kb()
     kb.printRules()
 
-    rule = kb.get_rule(17)
-    print(rule.cornerstone.index('Persistent Depressive Disorder\r\n'))
-    rule.cornerstone[23] = 'Persistent Depressive Disorder'
+    rule = kb.get_rule(16)
+    rule.conditions.pop('S18')
     kb.printRules()
     save_kb()
 
+
+def viewRules():
+    global kb
+    kb = KnowledgeBase([])
+    load_kb()
+    kb.printRules()
+    print("Rules as Inputs:")
+    for rule in kb.rules:
+        condition = list(rule.conditions.keys())
+        tobePrinted = str(
+            f"{condition[0]}{rule.conditions[condition[0]][0]}{rule.conditions[condition[0]][1]}")
+        for condition in list(rule.conditions.keys())[1:]:
+            tobePrinted += f" AND {condition}{rule.conditions[condition][0]}{rule.conditions[condition][1]}"
+        tobePrinted += f" --> {rule.conclusion}"
+        print(tobePrinted)
+
+
 if __name__ == '__main__':
+    # viewRules()
     editRules()
