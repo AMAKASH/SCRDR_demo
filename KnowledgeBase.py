@@ -14,10 +14,10 @@ class Rule:
         Rule.rule_no += 1
 
     def __repr__(self):
-        tobe_returned = f"Rule No: {self.rule_no}, conditions: {self.conditions}, conclusion: {self.conclusion},"
+        tobe_returned = f"Rule No: {self.rule_no}, conditions: {self.conditions}, \n\t\tconclusion: {self.conclusion},"
         if self.is_refinement:
             tobe_returned += f" parent: {self.parent},"
-        tobe_returned += f"\n\t cornerstone: {self.cornerstone}"
+        # tobe_returned += f"\n\t cornerstone: {self.cornerstone}"
         return tobe_returned
 
 

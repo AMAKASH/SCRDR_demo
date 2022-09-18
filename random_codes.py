@@ -51,5 +51,5 @@ def viewRules():
 
 
 if __name__ == '__main__':
-    # viewRules()
-    editRules()
+    viewRules()
+    #editRules()

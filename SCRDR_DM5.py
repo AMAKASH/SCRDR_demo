@@ -34,7 +34,9 @@ def save_kb(path=None):
 
 def initialise_output_path(features):
     with open(output_path, 'w') as f:
-        to_append = str(f"{','.join(features)}, conclusion, rules Evaluated, rules Fired\n")
+        to_append = str(f"{','.join(features)}, conclusion,"
+                        # f" rules Evaluated, rules Fired\n"
+                        )
         f.write(to_append)
 
 
@@ -133,8 +135,8 @@ def main():
 
     no_of_rows = dataset.shape[0]
     dataset['conclusion'] = ""
-    dataset['rules_evaluated'] = ""
-    dataset['rules_fired'] = ""
+    # dataset['rules_evaluated'] = ""
+    # dataset['rules_fired'] = ""
     kb.printRules()
     print_original_columns('List of Symptoms(S) corresponding to the table below:', original_columns)
     itr = 0
@@ -145,25 +147,28 @@ def main():
             evaluation = kb.eval_case(list(case))
         except ValueError:
             load_kb('saved_kb_bkp.kb')
-        # print(case)
+        # print(case.to_frame().T.to_string())
         # print(f"{itr}. Evaluation:", evaluation)
+
         if not evaluation:
+            print(dataset.head(itr + 1).to_string())
             add_rule(case)
             kb.printRules()
             print_original_columns('List of Symptoms(S) corresponding to the table below:', original_columns)
             continue
         if case['target'] != evaluation[0]:
             dataset.loc[itr, 'conclusion'] = evaluation[0]
-            dataset.loc[itr, 'rules_evaluated'] = "->".join(map(str, evaluation[2]))
-            dataset.loc[itr, 'rules_fired'] = "->".join(map(str, evaluation[3]))
+            print(dataset.head(itr + 1).to_string())
+            #dataset.loc[itr, 'rules_evaluated'] = "->".join(map(str, evaluation[2]))
+            #dataset.loc[itr, 'rules_fired'] = "->".join(map(str, evaluation[3]))
             case = dataset.iloc[itr]
             add_rule(case, evaluation[1])
             kb.printRules()
             print_original_columns('List of Symptoms(S) corresponding to the table below:', original_columns)
             continue
         dataset.loc[itr, 'conclusion'] = evaluation[0]
-        dataset.loc[itr, 'rules_evaluated'] = "->".join(map(str, evaluation[2]))
-        dataset.loc[itr, 'rules_fired'] = "->".join(map(str, evaluation[3]))
+        # dataset.loc[itr, 'rules_evaluated'] = "->".join(map(str, evaluation[2]))
+        # dataset.loc[itr, 'rules_fired'] = "->".join(map(str, evaluation[3]))
         append_to_output(list(dataset.iloc[itr]))
         itr += 1
 
