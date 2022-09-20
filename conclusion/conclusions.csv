@@ -1,19 +1,35 @@
-name,age_group,S1,S2,S3,S4,S5,S6,S7,S8,S9,S10,S11,S12,S13,S14,S15,S16,S17,S18,S19,S20,S21,target, conclusion,David,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Separation Anxiety Disorder,Separation Anxiety Disorder
-Maxwell,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Social Anxiety Disorder,Social Anxiety Disorder
-Jones,0,1,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Selective mutism,Selective mutism
-Warner,0,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Specific Phobia,Specific Phobia
-Starc,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Panic Disorder,Panic Disorder
-Lee,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,Generalized Anxiety Disorder,Generalized Anxiety Disorder
-Anderson,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Agoraphobia,Agoraphobia
-Broad,0,1,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Medicine/Substance induced Anxiety Disorder,Medicine/Substance induced Anxiety Disorder
-Stuart,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Anxiety Disorder due to another medical condition personality disorder,Anxiety Disorder due to another medical condition personality disorder
-Hazelwood,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Schizoid personality disorder,Schizoid personality disorder
-Clerk,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Paranoid personality disorder,Paranoid personality disorder
-Watson,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,Antisocial personality disorder,Antisocial personality disorder
-Taylor,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,Obsessive compulsive personality disorder,Obsessive compulsive personality disorder
-Root,3,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,360,0,0,0,0,0,Disruptive Mood Dysregulation Disorder,Disruptive Mood Dysregulation Disorder
-Morgan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,1,0,0,Major Depressive Disorder,Major Depressive Disorder
-Hales,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,720,0,0,1,1,1,Persistent Depressive Disorder,Persistent Depressive Disorder
-Bell,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,Premenstrual Dysphoric Disorder,Premenstrual Dysphoric Disorder
-Cummins,0,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Medicine/Substance induced Depressive Disorder,Medicine/Substance induced Depressive Disorder
-Zampa,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Depressive Disorder due to another medical condition personality disorder,Depressive Disorder due to another medical condition personality disorder
+Name,age_group,S1,S2,S3,S4,S5,S6,S7,S8,S9,S10,S11,S12,S13,S14,S15,S16,S17,S18,S19,S20,S21,target, conclusion
+David,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Separation Anxiety Disorder,Separation Anxiety Disorder
+Kane,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,90,0,1,0,1,0,Antisocial personality disorder,Antisocial personality disorder
+Jones,0,1,2,0,1,0,0,0,0,0,0,0,0,0,0,0,30,0,0,0,0,0,Selective mutism,Selective mutism
+Ali,2,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,390,0,1,0,0,0,Disruptive Mood Dysregulation Disorder,Disruptive Mood Dysregulation Disorder
+Warner,0,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,42,0,0,0,0,0,Specific Phobia,Specific Phobia
+Root,3,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,420,0,0,0,0,0,Disruptive Mood Dysregulation Disorder,Disruptive Mood Dysregulation Disorder
+Harry,0,0,0,0,0,0,1,0,1,0,0,0,1,0,1,0,120,0,0,0,1,0,Obsessive compulsive personality disorder,Obsessive compulsive personality disorder
+Pickford,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,90,0,0,0,0,0,Schizoid personality disorder,Schizoid personality disorder
+Drinkwater,0,0,0,0,0,0,0,2,0,0,0,1,0,0,1,0,14,0,0,1,0,0,Medicine/Substance induced Depressive Disorder,Medicine/Substance induced Depressive Disorder
+Maxwell,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,Social Anxiety Disorder,Social Anxiety Disorder
+Starc,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,30,0,0,0,0,0,Panic Disorder,Panic Disorder
+Lee,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,60,1,0,1,0,0,Generalized Anxiety Disorder,Generalized Anxiety Disorder
+Anderson,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,90,0,0,0,0,0,Agoraphobia,Agoraphobia
+Broad,0,1,0,0,0,0,0,2,0,0,0,0,0,0,0,0,42,0,0,0,0,0,Medicine/Substance induced Anxiety Disorder,Medicine/Substance induced Anxiety Disorder
+Neres,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,780,0,0,1,1,1,Persistent Depressive Disorder,Persistent Depressive Disorder
+Zampa,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,60,0,0,0,0,0,Depressive Disorder due to another medical condition personality disorder,Depressive Disorder due to another medical condition personality disorder
+Stuart,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,60,0,0,0,0,0,Anxiety Disorder due to another medical condition personality disorder,Anxiety Disorder due to another medical condition personality disorder
+Mathew,0,0,0,1,0,0,0,0,1,1,1,0,0,0,0,0,150,0,0,1,1,0,Paranoid personality disorder,Paranoid personality disorder
+Clerk,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,150,0,0,0,0,0,Paranoid personality disorder,Paranoid personality disorder
+Watson,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,180,0,0,0,0,0,Antisocial personality disorder,Antisocial personality disorder
+Taylor,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,180,0,0,0,0,0,Obsessive compulsive personality disorder,Obsessive compulsive personality disorder
+Hazelwood,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,365,0,0,0,0,0,Schizoid personality disorder,Schizoid personality disorder
+Morgan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,180,0,1,1,0,0,Major Depressive Disorder ,Major Depressive Disorder
+Hales,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,750,0,0,1,1,1,Persistent Depressive Disorder,Persistent Depressive Disorder
+Bell,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,90,1,0,0,0,0,Premenstrual Dysphoric Disorder,Premenstrual Dysphoric Disorder
+Cummins,0,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,300,0,0,0,0,0,Medicine/Substance induced Depressive Disorder,Medicine/Substance induced Depressive Disorder
+Sancho,0,0,1,0,0,1,0,0,0,0,0,1,0,0,1,0,90,1,0,0,0,0,Premenstrual Dysphoric Disorder,Premenstrual Dysphoric Disorder
+Williams,0,1,2,0,1,0,0,0,0,0,0,0,0,1,0,0,60,0,0,0,0,0,Selective mutism,Selective mutism
+Ronald,0,1,3,0,0,0,0,0,0,1,0,1,0,0,0,0,30,0,0,1,0,0,Specific Phobia,Specific Phobia
+Frank,0,1,2,0,0,1,0,0,0,0,1,1,0,0,1,0,14,0,1,0,0,0,Social Anxiety Disorder,Social Anxiety Disorder
+Frenkie,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,120,0,0,0,1,0,Panic Disorder,Panic Disorder
+Gerard,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,60,1,0,0,0,0,Agoraphobia,Agoraphobia
+Allister,0,1,0,0,0,0,0,2,0,0,0,0,1,0,0,0,120,0,0,1,0,0,Medicine/Substance induced Anxiety Disorder,Medicine/Substance induced Anxiety Disorder
+Roger,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,60,0,0,1,0,0,Depressive Disorder due to another medical condition personality disorder,Depressive Disorder due to another medical condition personality disorder
