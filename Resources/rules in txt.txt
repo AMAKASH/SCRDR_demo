@@ -1,6 +1,6 @@
 S1==1 AND S2==1 AND S3==1 --> Separation Anxiety Disorder
 S1==1 AND S2==2 --> Social Anxiety Disorder
-S1==1 AND S2==2 AND S4==1 --> Selective mutism
+S4==1 --> Selective mutism
 S1==1 AND S2==3 --> Specific Phobia
 S1==1 AND S5==1 --> Panic Disorder
 S1==1 AND S3==1 AND S17==1 AND S19==1 --> Generalized Anxiety Disorder
@@ -11,7 +11,6 @@ S8==1 AND S9==1 --> Schizoid personality disorder
 S10==1 --> Paranoid personality disorder
 S8==1 AND S11==1 --> Antisocial personality disorder
 S8==1 AND S12==1 --> Obsessive compulsive personality disorder
-S8==1 AND S9==1 --> Schizoid personality disorder
 S13==1 AND S16>=360 --> Disruptive Mood Dysregulation Disorder
 S14==1 AND S15==1 AND S19==1 --> Major Depressive Disorder
 S20==1 AND S21==1 AND S16>=720 --> Persistent Depressive Disorder
